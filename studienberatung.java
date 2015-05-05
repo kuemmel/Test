@@ -10,8 +10,13 @@ public class Studienberatung {
 	if(answer.equals("yes") {
 
 	} else {
-		System.out.println("nicht studieren");
+		System.out.println("Bist du wissbegierig?");
+		if(scanner.hasNext) answer = scanner.next();
+		if (answer.equals("yes")) {
+			System.out.println("Studerieren");
+		} else {
+			System.out.println("No.");
+		}
 	}
-        
     }
 }
